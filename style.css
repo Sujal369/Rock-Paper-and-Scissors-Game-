@@ -1,0 +1,55 @@
+#Heading{
+    background-color: black;
+    color: antiquewhite;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.choices{
+    margin-top: 3rem;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+}
+ 
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+
+#userScore, #comp-Score{
+    font-size: 4rem;
+}
+
+#msg{
+    margin-top: 5rem;
+    background-color: black;
+    color: azure;
+    display: inline;
+    padding: 1rem;   
+    border-radius: 1rem; 
+}
